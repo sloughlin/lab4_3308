@@ -1,0 +1,68 @@
+Nicholas Palmer
+Sophie Loughlin
+
+1. What do the following commands do?
+date=> Sets the system date and time
+ls -ltr=> lists the contents of the current directory using a long listing format sorted by modification time, oldest first. 
+cd ..=>Changes the directory to the parent directory.
+pwd=>Prints the working directory, or the directory that you are currently in.
+who=>Shows who is logged on.
+whoami=>Prints out the user name.
+man man=>Shows the man page for the man command. The man command shows the manual for a specified command. 
+env=>Runs a program in a modified environment
+touch=> Updates the access and modifiaction times of each file to the current time.
+ 
+2. The following are contained in lab1:
+little1.zip
+little2.zip
+Directory: mysteries
+passwd_demo.txt
+Directory: pictures
+Directory: texts
+
+3. We used "ls -a" to display all files. The -a part of the command lists files which begin with a period. The file contains ascii art of a cat. 
+
+4. The command we used was "ls pictures -S -1". The largest picture is of a volcano plume and it is 8MB. The name of the file is Eyjafjallajokull_volcano_plume_2010_04_17.jpg.
+
+5. The directory and its contents is 760,863KB.
+
+6. The new archive called big_stuff.zip is 8.5MB.
+
+7. The new archive called big_stuff.tar.gz is 7.9 MB.
+
+8. We used the commands "rm -r big_stuff" and "rm big_stuff.txt".
+
+9. We used the -xf options for the tar command. The -x option extracts the files from the archive, and the -f option uses the archive file or device archive. 
+ 
+10. When the contents of little1.zip were archived, they were not contained within their own directory. The contents of little2.zip were contained in their own directory when they were zipped up.
+
+11. The path of target.txt is /mysteries.862/target.txt
+
+12. The new short story is "The Project Gutenberg EBook of Dubliners, by James Joyce subscribe to our email newsletter to hear about new eBooks". The commands that we used were "head -n1 /texts/dubliners.txt" and "tail -n1 /texts/heartofdarkness.txt".
+
+13. The following commands are what we used for this question:
+sort -k1.1,1.1 passwd_demotxt=> sorted the file based on the first letter of each line (so by username in this case)
+sort -t: -k, 3,4 -g passwd_demo.txt=> sorted the file based on the uid
+sort -t: -k, 4,3 -g passwd_demo.txt=> sorted the file based on the gid then the uid.
+grep Marx passwd_demo.txt=>Shows all the lines in the file with Marx in it
+wc -l passwd_demo.txt=>Count the number of lines in the file.
+
+14. 
+To print the unique GIDs we used the following command:
+sort -u -t: -k4,4
+
+To output that to the tmp file we used the following command: 
+sort -u -t: -k4,4 > tmp
+
+Our script to find the number of lines in the file contained the following command:
+we -l passwd_demo.txt
+
+To change the file permissions we used "chmod u+x getUniqueGID.sh".
+The other one didn't execute because the user didn't have execution permissions for that file. You can also do this using the "setfacl" command to change file access control lists, and you can use the "setcap" command to change the file capabilities. The setcap command allows for more fine-grain control of the permissions in the file. 
+
+
+
+
+
+
+
