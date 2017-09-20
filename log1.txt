@@ -1,0 +1,61 @@
+commit 2e68aa9bee8ca6041effe747d1928d0564cc76f1
+Merge: f37a21d ebd2c2c
+Author: Sophie Loughlin <sloughlinm@gmail.com>
+Date:   Tue Sep 19 18:13:02 2017 -0600
+
+    Fixed conflicts
+
+commit f37a21dedfda38de456aa2b7971a56f3cbb82234
+Author: Sophie Loughlin <sloughlinm@gmail.com>
+Date:   Tue Sep 19 18:07:00 2017 -0600
+
+    Conflict time
+
+commit ebd2c2ca7ed1fcfc979d92fa7b591f2c9854f798
+Author: Nicholas Palmer <nicholas.palmer@colorado.edu>
+Date:   Tue Sep 19 17:51:18 2017 -0600
+
+    Added my name to the README.md file per step 18 of the lab.
+
+commit f0948e9d2ad8f4d372d9ad85ce61036af8e1c6fe
+Merge: 2e85f6d e5cdf71
+Author: Sophie Loughlin <sloughlinm@gmail.com>
+Date:   Tue Sep 19 17:45:21 2017 -0600
+
+    Merge branch 'new-testing-files'
+
+commit 2e85f6dafa084521d107186dd1b4312509701d0d
+Author: Sophie Loughlin <sloughlinm@gmail.com>
+Date:   Tue Sep 19 17:44:22 2017 -0600
+
+    Changed fruits
+
+commit f0ececc6764419d7c832a8262d42472f525d44a1
+Author: Sophie Loughlin <sloughlinm@gmail.com>
+Date:   Tue Sep 19 17:42:04 2017 -0600
+
+    Adding new fruits
+
+commit e5cdf712ab03326d283d41c662b7199ee4a03a63
+Author: Sophie Loughlin <sloughlinm@gmail.com>
+Date:   Tue Sep 19 17:36:26 2017 -0600
+
+    Add File
+
+commit 7874bb68462a570805c527ae302e403debfbbaa0
+Author: Sophie Loughlin <sloughlinm@gmail.com>
+Date:   Tue Sep 19 17:34:02 2017 -0600
+
+    New File
+
+commit 2aa3b93113710472debe5bc76a08e5f7d482718a
+Author: Sophie Loughlin <sloughlinm@gmail.com>
+Date:   Tue Sep 19 17:25:33 2017 -0600
+
+    Inspiration
+
+commit 75613688744921fd87162fe7fac7d9c0c833e30a
+Author: Sophie Loughlin <sloughlinm@gmail.com>
+Date:   Tue Sep 19 17:05:11 2017 -0600
+
+    first commit
